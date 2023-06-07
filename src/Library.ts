@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 export interface LibraryClass {
   sayHello: () => void;
   add: (a: number, b: number) => number;
@@ -9,7 +10,6 @@ class Library implements LibraryClass {
    *
    * @return {void} Does not return anything.
    */
-  // eslint-disable-next-line class-methods-use-this
   public sayHello(): void {
     // eslint-disable-next-line no-console
     console.log("Hello World!");

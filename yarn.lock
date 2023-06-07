@@ -1847,6 +1847,18 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-bin-setup@^1.0.0:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.1.3.tgz#d45d5220e3b2ecc3a94263a56116f727f6c1bb14"
+  integrity sha512-opgw9iSCAzT2+6wJOETCpeRYAQxSopqQ2z+N6BXwIMsQQ7Zj5M8MaafQY8JMlolRR6R1UXg2WmhKp0p9lSOivg==
+
+node@16:
+  version "16.20.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-16.20.0.tgz#3befcd81b2d944a44add38d8913c538ad8ad092d"
+  integrity sha512-dom1A0xPnc1qzE+voYGswg3afb5QzlQxsPqE2b94BUcZZ6I5+v1EzqV0wHo7mXM1YzFTJOLshOwyAlouNEk3tA==
+  dependencies:
+    node-bin-setup "^1.0.0"
+
 normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"

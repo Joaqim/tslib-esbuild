@@ -13,7 +13,7 @@
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "files": [
-    "./dist/csj/index.js",
+    "./dist/cjs/index.js",
     "./dist/esm/index.js",
     "./dist/cjs/index.d.ts"
   ],

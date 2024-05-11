@@ -5,17 +5,19 @@
   "type": "commonjs",
   "exports": {
     "node": {
-      "require": "./dist/cjs/index.js",
-      "import": "./dist/esm/index.js"
+      "require": "./package/wrapper-es6.js",
+      "import": "./esm-wrapper/index.mjs"
     },
-    "default": "./dist/esm/index.js"
+    "default": "./esm-wrapper/index.mjs"
   },
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "files": [
     "./dist/cjs/index.js",
     "./dist/esm/index.js",
-    "./dist/cjs/index.d.ts"
+    "./dist/cjs/index.d.ts",
+    "./package/wrapper-es6.js",
+    "./esm-wrapper/index.mjs"
   ],
   "scripts": {
     "ts-types:esm": " tsc -p tsconfig.json --emitDeclarationOnly --outDir dist/esm",
